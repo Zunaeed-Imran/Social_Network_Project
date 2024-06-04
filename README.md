@@ -12,4 +12,5 @@
 - started social network project.
 - social network project Setup & Introduction (23:14)
 
-- 
+- work on Signup & Login Screen
+- work on Signup Controller & Model (11:20)

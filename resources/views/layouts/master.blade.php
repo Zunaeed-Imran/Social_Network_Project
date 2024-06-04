@@ -11,7 +11,6 @@
   @include('includes.header')
   <div class="container">
     @yield('content')
-    <h2 class="text-2xl">Hi</h2>
   </div>
 </body>
 </html>
