@@ -3,6 +3,7 @@
 
 
 ### What we learn new From This Tutorial.
+- in the section i need to call the main @yield.
 - 
 
 
@@ -10,3 +11,5 @@
 - Was practicing Function in Laravel.
 - started social network project.
 - social network project Setup & Introduction (23:14)
+
+- 
