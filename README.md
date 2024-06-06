@@ -6,7 +6,7 @@
 - in the section i need to call the main @yield.
 - `php artisan config:cache` with this command It combines these configuration settings into a single array and serializes this array into a file.
 - `The php artisan migrate` command in Laravel is a powerful tool that allows you to manage your database schema through migrations.
-
+- `php artisan make:model ModelName` to create model.
 
 #### Done task for today
 - Was practicing Function in Laravel.
