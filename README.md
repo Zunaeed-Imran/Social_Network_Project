@@ -15,4 +15,8 @@
 - social network project Setup & Introduction (23:14)
 
 - work on Signup & Login Screen
-- work on Signup Controller & Model (11:20)
+
+- work on Signup Controller & Model
+- - reading document about migrate cache
+- - reading document about make mode and migrate.
+- -  
