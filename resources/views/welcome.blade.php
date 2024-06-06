@@ -34,6 +34,7 @@
           </div>
           <div class="m-2 p-2 border-b border-gray-900/10 pb-12">
             <button class="bg-blue-500 p-1 rounded">Submit</button>
+            <input type="hidden" name="_token" value="{{ Session:token() }}">
           </div>
   </form>
 </div>

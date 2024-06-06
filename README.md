@@ -8,6 +8,8 @@
 - `The php artisan migrate` command in Laravel is a powerful tool that allows you to manage your database schema through migrations.
 - `php artisan make:model ModelName` to create model.
 - `php artisan make:model User -m` i create user with this command and delete before the database all migration file and user file from the Models file.
+- i was facing problem running migrate command 'because there was previous table in the database' than i run migrate fresh command and it work.
+
 
 #### Done task for today
 - Was practicing Function in Laravel.
