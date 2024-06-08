@@ -23,13 +23,14 @@ class UserController extends Controller
     $user->password = $password;
 
     $user->save();
+    Auth::login($user);
 
     return redirect()->route('dashboard');
 
   }
 
   public function postSignIn (Request $request) {
-    // dd(['email' => $request['email'], 'password' => $request['password']]);
+    // dd($request->all());
     // dd(Auth::attempt(['email' => $request['email'], 'password' => $request['password']]));
     if(Auth::attempt(['email' => $request['email'], 'password' => $request['password']])){
       return redirect()->route('dashboard');

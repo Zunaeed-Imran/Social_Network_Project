@@ -59,7 +59,7 @@
             </div>
           </div>
           <div class="m-2 p-2">
-            <button class="bg-blue-500 p-1 rounded">Submit</button>
+            <button class="bg-blue-500 p-1 rounded" type="submit">Submit</button>
             <input type="hidden" name="_token" value="{{ Session::token() }}">
           </div>
   </form>
