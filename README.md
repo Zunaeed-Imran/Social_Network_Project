@@ -19,6 +19,8 @@
 - work on Signup & Login Screen
 
 - work on Signup Controller & Model
-- - reading document about migrate cache
-- - reading document about make mode and migrate.
-- -  
+  - reading document about migrate cache
+  - reading document about make mode and migrate.
+
+- work on Logging users in.
+  - 
