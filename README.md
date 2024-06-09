@@ -22,5 +22,6 @@
   - reading document about migrate cache
   - reading document about make mode and migrate.
 
-- work on Logging users in.(11:38)
-  - 
+- work on Logging users in
+
+- work on Input Validation(7:32)
