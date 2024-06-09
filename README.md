@@ -25,3 +25,7 @@
 - work on Logging users in
 
 - work on Input Validation(7:32)
+  - Validation Document reading
+  - Introduction
+  - Validation Logic
+  - Stopping on First Validation Failure
