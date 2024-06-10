@@ -11,5 +11,7 @@ class PostController extends Controller
     // Validation 
     $post = new Post();
     $post->body = $request['body'];
+    $request->user()->posts()->save($post);
+    return redirect()->route('dashboard');
   }
 }
