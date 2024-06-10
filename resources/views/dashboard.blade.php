@@ -6,7 +6,7 @@
     <header>
       <h1 class="text-3xl">The Dashboard</h1>
     </header>
-    <form action="">
+    <form action="{{ route('post.create') }}" method="post">
       <div>
         <textarea name="body" cols="30" rows="10" placeholder="write">
           Write Something.
@@ -16,6 +16,7 @@
                      text-[#ffd7d7] 
                      rounded p-1 
                      outline outline-offset-2">Create Post</button>
+      <input type="hidden" name="_token" value="{{ Session::token() }}" >               
     </form>
   </section>
   <section class="p-2">

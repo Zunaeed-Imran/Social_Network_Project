@@ -20,12 +20,12 @@ Route::group(['middleware' => ['web']], function(){
         return view('welcome');
     })->name('home');
 
-    Route:: post('/signup', [
+    Route::post('/signup', [
         'uses' => 'UserController@postSignUp',
         'as' => 'signup'
     ]);
 
-    Route:: post('/signin', [
+    Route::post('/signin', [
         'uses' => 'UserController@postSignIn',
         'as' => 'signin'
     ]);
@@ -34,5 +34,10 @@ Route::group(['middleware' => ['web']], function(){
         'uses' => 'UserController@getDashboard',
         'as' => 'dashboard',
         'middleware' => 'auth'
+    ]);
+
+    Route::post('/createpost', [
+        'uses' => 'PostController@postCreatePost',
+        'as' => 'post.create'
     ]);
 });
