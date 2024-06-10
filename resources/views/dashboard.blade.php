@@ -8,7 +8,7 @@
     </header>
     <form action="">
       <div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="write">
+        <textarea name="body" cols="30" rows="10" placeholder="write">
           Write Something.
         </textarea>
       </div>
