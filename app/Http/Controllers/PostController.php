@@ -18,7 +18,6 @@ class PostController extends Controller
     if($request->user()->posts()->save($post)){
       $message = 'Post Sucessfully Created';
     }
-    
-    return redirect()->route('dashboard')->with(['message', $message]);
+    return redirect()->route('dashboard')->with(['message' => $message]);
   }
 }
