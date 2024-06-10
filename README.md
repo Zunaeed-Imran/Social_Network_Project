@@ -32,5 +32,6 @@
 - work on Middleware & Route Protection  
 
 - work on Creating the Dashboard View
-- will work on Creating Posts (Model & Controller)
+- work on Creating Posts (Model & Controller)
+- work on Post Validation & Outputting Errors
 - 
