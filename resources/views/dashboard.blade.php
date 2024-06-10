@@ -16,7 +16,7 @@
                      text-[#ffd7d7] 
                      rounded p-1 
                      outline outline-offset-2">Create Post</button>
-      <input type="hidden" name="_token" value="{{ Session::token() }}" >               
+      <input type="hidden" value="{{ Session::token() }}" name="_token">               
     </form>
   </section>
   <section class="p-2">
