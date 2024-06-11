@@ -29,7 +29,7 @@
       <article class="p-1">
         <p>{{ $post->body }}</p>
         <div>
-          Posted By {{ $post->user }} on {{$post->created_at }}
+          Posted By {{ $post->user->first_name }} on {{$post->created_at }}
           </div>
           <div>
             <a href="#">Like</a> |
