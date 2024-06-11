@@ -34,4 +34,6 @@
 - work on Creating the Dashboard View
 - work on Creating Posts (Model & Controller)
 - work on Post Validation & Outputting Errors
+
+- work on Outputting Posts
 - 
