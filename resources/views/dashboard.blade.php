@@ -24,30 +24,22 @@
       <header>
         <h1 class="text-xl">What Other People Say</h1>
       </header>
+
+      @foreach ($posts as $post)
+        
       <article class="p-1">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur inventore obcaecati magni ab vel! Culpa quisquam voluptatibus explicabo id aperiam quasi delectus omnis ipsum, necessitatibus maxime non eos perspiciatis? Exercitationem?</p>
         <div>
           Posted By Imran on 10 june 2024
-        </div>
-        <div>
-          <a href="#">Like</a> |
-          <a href="#">Dislike</a> |
-          <a href="#">Edit</a> |
-          <a href="#">Delete</a>
-        </div>
-      </article>
-      <article class="p-1">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur inventore obcaecati magni ab vel! Culpa quisquam voluptatibus explicabo id aperiam quasi delectus omnis ipsum, necessitatibus maxime non eos perspiciatis? Exercitationem?</p>
-        <div>
-          Posted By Imran on 10 june 2024
-        </div>
-        <div>
-          <a href="#">Like</a> |
-          <a href="#">Dislike</a> |
-          <a href="#">Edit</a> |
-          <a href="#">Delete</a>
-        </div>
-      </article>
+          </div>
+          <div>
+            <a href="#">Like</a> |
+            <a href="#">Dislike</a> |
+            <a href="#">Edit</a> |
+            <a href="#">Delete</a>
+            </div>
+            </article>
+      @endforeach
     </div>
   </section>
 @endsection
