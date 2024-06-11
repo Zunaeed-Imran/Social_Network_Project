@@ -26,11 +26,10 @@
       </header>
 
       @foreach ($posts as $post)
-        
       <article class="p-1">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur inventore obcaecati magni ab vel! Culpa quisquam voluptatibus explicabo id aperiam quasi delectus omnis ipsum, necessitatibus maxime non eos perspiciatis? Exercitationem?</p>
+        <p>{{ $post->body }}</p>
         <div>
-          Posted By Imran on 10 june 2024
+          Posted By {{ $post->user }} on {{$post->created_at }}
           </div>
           <div>
             <a href="#">Like</a> |
