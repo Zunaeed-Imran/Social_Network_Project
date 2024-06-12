@@ -36,4 +36,7 @@
 - work on Post Validation & Outputting Errors
 
 - work on Outputting Posts
+- work on Deleting Posts
+
+- work on User Logout & Fixing Post Deletion
 - 
