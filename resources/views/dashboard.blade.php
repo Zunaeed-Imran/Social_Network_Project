@@ -47,9 +47,9 @@
  <div>
   <div class="p-2">
       <button class="bg-[#5e03fc] 
-                     text-[#ffd7d7] 
-                     rounded p-1 
-                     outline outline-offset-2">Edit Post</button>
+        text-[rgb(255,215,215)] 
+          rounded p-1 
+          outline outline-offset-2">Edit Post</button>
   </div>
   <div class="p-2">
       <button class="bg-[#5e03fc] 
