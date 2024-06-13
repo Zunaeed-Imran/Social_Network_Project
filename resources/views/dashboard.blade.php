@@ -26,7 +26,7 @@
       </header>
 
       @foreach ($posts as $post)
-      <article class="post">
+      <article class='post'>
         <p>{{ $post->body }}</p>
         <div>
           Posted By {{ $post->user->first_name }} on {{$post->created_at }}
@@ -35,7 +35,7 @@
             <a href="#">Like</a> |
             <a href="#">Dislike</a> |
             @if (Auth::user() == $post->user)
-             <a href="#">Edit</a> |
+             <a href="#" class="edit">Edit</a> |
              <a href="{{ route('post.delete', ['post_id' => $post->id]) }}">Delete</a>
             @endif
             </div>
@@ -45,7 +45,7 @@
   </section>
 
 
-  <div class="modal" tabindex="-1" role="dialog" id="edit-modal">
+  <div class="modal" tabindex="-1" role="dialog" id="#edit-modal">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
