@@ -44,28 +44,30 @@
     </div>
   </section>
 
- <div id="edit-modal" role="dialog">
-  <div class="post">
-      <button class="bg-[#5e03fc] 
-        text-[rgb(255,215,215)] 
-          rounded p-1 
-          outline outline-offset-2">Edit Post</button>
+
+  <div class="modal" tabindex="-1" role="dialog" id="edit-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Edit Post</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+          <div class="form-group">
+            <label class="form-control" for="">Edit the post</label>
+            <textarea class="form-control" name="" id="" rows="5"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
   </div>
-  <div>
-    <form class="form-group" action="" method="get">
-      <label for="">Edit The Post</label>
-      <textarea class="form-control" name="post-body" id="post-body" rows="5"></textarea>
-    </form>
-  </div>
-  <div class="p-2">
-      <button class="bg-[#5e03fc] 
-        text-[#ffd7d7] 
-          rounded p-1 
-          outline outline-offset-2">Close</button>
-      <button class="bg-[#5e03fc] 
-        text-[#ffd7d7] 
-          rounded p-1 
-          outline outline-offset-2">Save Change</button>
-  </div>
- </div>
+</div>
+
+
+
 @endsection
