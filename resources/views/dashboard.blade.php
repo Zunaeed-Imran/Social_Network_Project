@@ -30,7 +30,7 @@
         <p>{{ $post->body }}</p>
         <div>
           Posted By {{ $post->user->first_name }} on {{$post->created_at }}
-          </div>
+        </div>
           <div class="interaction">
             <a href="#">Like</a> |
             <a href="#">Dislike</a> |
@@ -38,8 +38,8 @@
              <a href="#" class="edit">Edit</a> |
              <a href="{{ route('post.delete', ['post_id' => $post->id]) }}">Delete</a>
             @endif
-            </div>
-            </article>
+        </div>
+      </article>
       @endforeach
     </div>
   </section>
@@ -55,7 +55,7 @@
       <div class="modal-body">
         <form action="">
           <div class="form-group">
-            <label class="form-control" for="">Edit the post</label>
+            <label class="form-control" for="post-body">Edit the post</label>
             <textarea class="form-control" name="post-body" id="post-body" rows="5"></textarea>
           </div>
         </form>
