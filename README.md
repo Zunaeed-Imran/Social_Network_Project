@@ -39,4 +39,7 @@
 - work on Deleting Posts
 
 - work on User Logout & Fixing Post Deletion
-- 
+- work on Editing Posts (View)
+
+- work on Use jQuery to fetch Post Content
+- work on Edit Posts with AJAX Request
