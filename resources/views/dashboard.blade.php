@@ -26,7 +26,7 @@
       </header>
 
       @foreach ($posts as $post)
-      <article class='post'>
+      <article class='post' data-postid="{{ $post->id }}">
         <p>{{ $post->body }}</p>
         <div>
           Posted By {{ $post->user->first_name }} on {{$post->created_at }}
@@ -45,12 +45,12 @@
   </section>
 
 
-  <div class="modal" tabindex="-1" role="dialog" id="#edit-modal">
+  <div class="modal fade" tabindex="-1" role="dialog" id="#edit-modal">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Edit Post</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h5 class="modal-title">Edit Post</h5>
       </div>
       <div class="modal-body">
         <form action="">
@@ -62,12 +62,17 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" id="modal-save" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
 </div>
 
+
+<script>
+  var token = '{{ Session::token() }}';
+  var url = '{{ route('edit') }}';
+</script>
 
 
 @endsection
