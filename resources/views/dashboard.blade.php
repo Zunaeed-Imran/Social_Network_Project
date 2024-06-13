@@ -56,7 +56,7 @@
         <form action="">
           <div class="form-group">
             <label class="form-control" for="">Edit the post</label>
-            <textarea class="form-control" name="" id="" rows="5"></textarea>
+            <textarea class="form-control" name="post-body" id="post-body" rows="5"></textarea>
           </div>
         </form>
       </div>
