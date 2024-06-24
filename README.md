@@ -14,7 +14,7 @@
 #### Done task for today
 - Was practicing Function in Laravel.
 - started social network project.
-- social network project Setup & Introduction (23:14)
+- social network project Setup & Introduction
 
 - work on Signup & Login Screen
 
